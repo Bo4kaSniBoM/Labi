@@ -3,7 +3,7 @@
 filename = "students_chain.txt"
 
 try:
-    with open(filename, 'w', encoding='utf-8') as f:
+    with open(filename, 'w') as f:
         f.write("Прізвище: Титович\n")
 
         f.write("Питання: Що таке списки (list) у Python, як створити список і додати елемент?\n")
